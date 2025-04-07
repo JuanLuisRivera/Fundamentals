@@ -1,0 +1,33 @@
+@use "sass:color";
+// Define a variable
+$primary-color: #3498db;
+
+body {
+  background-color: $primary-color;
+  font-family: Arial, sans-serif;
+}
+
+// Nesting example
+nav {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+// A mixin for reusable styles
+@mixin button-style {
+  padding: 10px 15px;
+  background-color: color.scale($primary-color, $lightness: -18.82%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  @include button-style;
+}

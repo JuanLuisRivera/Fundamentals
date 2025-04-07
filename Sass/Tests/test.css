@@ -1,0 +1,23 @@
+body {
+  background-color: #3498db;
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: rgb(33.1377439331, 125.187032636, 186.8600560669);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=test.css.map */
